@@ -1,0 +1,4296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1724
+    y: 53
+    width: 1844
+    height: 1027
+  m_ShowMode: 4
+  m_Title: Inspector
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1844
+    height: 1027
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 36
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: MainToolbarWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1844
+    height: 36
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1007
+    width: 1844
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 1844
+    height: 971
+  m_MinSize: {x: 300, y: 112}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 17
+  draggingID: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 824
+    height: 971
+  m_MinSize: {x: 200, y: 112}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 18
+  draggingID: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 824
+    height: 468
+  m_MinSize: {x: 200, y: 56}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 19
+  draggingID: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 255
+    height: 468
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 255
+    y: 0
+    width: 569
+    height: 468
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SplitView
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 468
+    width: 824
+    height: 503
+  m_MinSize: {x: 200, y: 56}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 29
+  draggingID: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 549
+    height: 503
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 549
+    y: 0
+    width: 275
+    height: 503
+  m_MinSize: {x: 52, y: 76}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 824
+    y: 0
+    width: 1020
+    height: 971
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  - {fileID: 23}
+  - {fileID: 24}
+  - {fileID: 25}
+  m_Selected: 0
+  m_LastSelected: 3
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.GameView
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 550
+    y: 24
+    width: 273
+    height: 477
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 273, y: 456}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 0000000000000000000000000e000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -136.5
+    m_HBaseRangeMax: 136.5
+    m_VBaseRangeMin: -228
+    m_VBaseRangeMax: 228
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 273
+      height: 456
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 136.5, y: 228}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -136.5
+      y: -228
+      width: 273
+      height: 456
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 273, y: 477}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+  m_showToolbar: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13987, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.MainToolbarWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: UnityEditor.MainToolbarWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1844
+    height: 36
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Account
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Store
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Unsupported User Elements
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Package Management/Package Manager
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Collab
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/AI
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Unity Version Control
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Toolbar Help
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Layout
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Editor Utility/Quality
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Search
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Modes
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Undo
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Multiplayer/Multiplayer Role
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Cloud
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/Environment
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 2
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Play Mode Controls
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 24
+    width: 254
+    height: 442
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: []
+      m_LastClickedID:
+        m_Data: 0
+      m_ExpandedIDs:
+      - m_Data: -1442
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData:
+          m_Data: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 256
+    y: 24
+    width: 567
+    height: 442
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Tool Settings
+      index: 2
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-174.0,"y":-26.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -174, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-grid-and-snap-toolbar
+      index: 3
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-141.0,"y":224.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -141, y: 224}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-toolbar
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-search-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__right
+      displayed: 0
+      id: unity-transform-toolbar
+      index: 0
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":26.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-component-tools
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      displayed: 1
+      id: Orientation
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-122.5,"y":-149.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -122.5, y: -149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Light Settings
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Camera
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Agent Display
+      index: 5
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Occlusion Culling
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Physics Debugger
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Scene Visibility
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Particles
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap
+      index: 11
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 15
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 10}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__bottom
+      displayed: 1
+      id: AINavigationOverlay
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":true,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-207.0,"y":-214.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 1
+      snapOffset: {x: -207, y: -214}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Visual Effect Event Tester
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Visual Effect
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Visual Effect Model
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Visual Effect Timeline Control
+      index: 13
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Path
+      index: 14
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: unity-spline-inspector
+      index: 15
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: APV Overlay
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/TrailRenderer
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-camera-mode-toolbar
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Terrain Tools
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Masks
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 0
+      id: Scene View/Lighting Visualization Colors
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 1
+      id: Overlays/OverlayMenu
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":-54.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":2,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: -54}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 2
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/PBR Validation Settings
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: SceneView/CamerasOverlay
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-tool-contexts-toolbar
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes (0)
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Filters
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: brush-info-overlay
+      index: 17
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: TileWorldCreator
+      index: 18
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_DynamicPanelContainerData:
+    - containerId: overlay-dynamic-panel--left
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    - containerId: overlay-dynamic-panel--right
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_DebugDrawModesUseInteractiveLightBakingData: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 32, y: 2, z: -14}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 2
+    name: Shaded Wireframe
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 1
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.39646134, y: 0.34913924, z: -0.16688736, w: -0.8326675}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 28.888998
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
+  m_Viewpoint:
+    m_SceneView: {fileID: 17}
+    m_CameraOverscanSettings:
+      m_Opacity: 50
+      m_Scale: 1
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_LastDebugDrawMode:
+    drawMode: 35
+    name: Contributors / Receivers
+    section: Lighting
+  m_ViewIsLockedToObject: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.TestRunner.dll::UnityEditor.TestTools.TestRunner.TestRunnerWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: Test framework for running Edit mode and Play mode tests in Unity.
+      Part of the com.unity.test-framework package.
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2342
+    y: 89
+    width: 694
+    height: 442
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_Spl:
+    ID: 175
+    splitterInitialOffset: 484
+    currentActiveSplitter: -1
+    realSizes:
+    - 296
+    - 76
+    relativeSizes:
+    - 0.7963303
+    - 0.20366973
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 372
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_TestListGUIs:
+  - m_Window: {fileID: 18}
+    runProgress:
+      RunGuid: 84b9b3a7-7d4b-4274-bcbb-2d96a90498ad
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames: []
+          groupNames:
+          - .*
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999995
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Pantheon Survivors][suite]'
+      name: Pantheon Survivors
+      fullName: Pantheon Survivors
+      resultStatus: 1
+      duration: 0.1742142
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1104
+      uniqueId: '[Soul_Tests_EditMode.dll][suite]'
+      name: Soul_Tests_EditMode.dll
+      fullName: /Users/domi/Ebonor/worktree/wt-onlinetest/Library/ScriptAssemblies/Soul_Tests_EditMode.dll
+      resultStatus: 1
+      duration: 0.17407809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pantheon Survivors][suite]'
+    - id: 1105
+      uniqueId: 'Soul_Tests_EditMode.dll/[Soul][suite]'
+      name: Soul
+      fullName: Soul
+      resultStatus: 1
+      duration: 0.17407809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: '[Soul_Tests_EditMode.dll][suite]'
+    - id: 1106
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/[Tests][suite]'
+      name: Tests
+      fullName: Soul.Tests
+      resultStatus: 1
+      duration: 0.17407809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1105
+      parentUniqueId: 'Soul_Tests_EditMode.dll/[Soul][suite]'
+    - id: 1107
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+      name: EditMode
+      fullName: Soul.Tests.EditMode
+      resultStatus: 1
+      duration: 0.1301788
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/[Tests][suite]'
+    - id: 1036
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+      name: BuffLogicV2Tests
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests
+      resultStatus: 1
+      duration: 0.0239129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1040
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.AddBuff_BuffIdZero_RejectedAndPendingCountUnchanged]'
+      name: AddBuff_BuffIdZero_RejectedAndPendingCountUnchanged
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.AddBuff_BuffIdZero_RejectedAndPendingCountUnchanged
+      resultStatus: 1
+      duration: 0.0195049
+      messages: 
+      output: '2026-05-22 02:33:46.988 [ERROR] BuffLogicV2-[BuffLogicV2] AddBuff:
+        request.BuffId is 0
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1039
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.AddBuff_ValidRequest_IncrementsPendingCount]'
+      name: AddBuff_ValidRequest_IncrementsPendingCount
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.AddBuff_ValidRequest_IncrementsPendingCount
+      resultStatus: 1
+      duration: 0.000272
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1043
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.EventChannels_AreAllPublicAndSubscribable]'
+      name: EventChannels_AreAllPublicAndSubscribable
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.EventChannels_AreAllPublicAndSubscribable
+      resultStatus: 1
+      duration: 0.0022915
+      messages: All 4 event channels are public and subscribable
+      output: 
+      stacktrace: 'at Soul.Tests.EditMode.BuffLogicV2Tests.EventChannels_AreAllPublicAndSubscribable
+        () [0x0009f] in /Users/domi/Ebonor/worktree/wt-onlinetest/Assets/Tests/EditMode/V2/BuffLogicV2Tests.cs:127
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1041
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.FireBuffTicked_NullInstance_LogsErrorAndDoesNotInvokeSubscriber]'
+      name: FireBuffTicked_NullInstance_LogsErrorAndDoesNotInvokeSubscriber
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.FireBuffTicked_NullInstance_LogsErrorAndDoesNotInvokeSubscriber
+      resultStatus: 1
+      duration: 0.0008862
+      messages: 
+      output: '2026-05-22 02:33:47.002 [ERROR] BuffLogicV2-[BuffLogicV2] FireBuffTicked:
+        instance is null
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1042
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.FireBuffTicked_ValidInstance_InvokesSubscriberWithCorrectArgs]'
+      name: FireBuffTicked_ValidInstance_InvokesSubscriberWithCorrectArgs
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.FireBuffTicked_ValidInstance_InvokesSubscriberWithCorrectArgs
+      resultStatus: 1
+      duration: 0.000471
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1038
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.HasRestrictionState_InitiallyFalseForAllTypes]'
+      name: HasRestrictionState_InitiallyFalseForAllTypes
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.HasRestrictionState_InitiallyFalseForAllTypes
+      resultStatus: 1
+      duration: 0.0003737
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1037
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/BuffLogicV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests.InitialState_PendingAndActiveCount_AreZero]'
+      name: InitialState_PendingAndActiveCount_AreZero
+      fullName: Soul.Tests.EditMode.BuffLogicV2Tests.InitialState_PendingAndActiveCount_AreZero
+      resultStatus: 1
+      duration: 0.0001136
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.BuffLogicV2Tests][suite]'
+    - id: 1044
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+      name: CombatEventChainTests
+      fullName: Soul.Tests.EditMode.CombatEventChainTests
+      resultStatus: 1
+      duration: 0.0180804
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1054
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_IsDot_OnPreDamage_DoesNotThrow]'
+      name: AdjustDirListener_IsDot_OnPreDamage_DoesNotThrow
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_IsDot_OnPreDamage_DoesNotThrow
+      resultStatus: 1
+      duration: 0.0020674
+      messages: 
+      output: '2026-05-22 02:33:47.011 [DEBUG] AdjustDirListenerV2-[AdjustDirListenerV2]
+        OnPreDamage: skip IsDot (actor=0)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1055
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_NullAttacker_OnPreDamage_DoesNotThrow]'
+      name: AdjustDirListener_NullAttacker_OnPreDamage_DoesNotThrow
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_NullAttacker_OnPreDamage_DoesNotThrow
+      resultStatus: 1
+      duration: 0.0007041
+      messages: 
+      output: '2026-05-22 02:33:47.012 [DEBUG] AdjustDirListenerV2-[AdjustDirListenerV2]
+        OnPreDamage: skip null Attacker (actor=0)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1053
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_Priority_EqualsAdjustDirEnum]'
+      name: AdjustDirListener_Priority_EqualsAdjustDirEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.AdjustDirListener_Priority_EqualsAdjustDirEnum
+      resultStatus: 1
+      duration: 0.0001552
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1043
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.ApplyDelta_DeductsFromMainKey_ReturnsActualDelta]'
+      name: ApplyDelta_DeductsFromMainKey_ReturnsActualDelta
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.ApplyDelta_DeductsFromMainKey_ReturnsActualDelta
+      resultStatus: 1
+      duration: 0.0029953
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1044
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.ApplyDelta_KeyNotPresent_ReturnsZero]'
+      name: ApplyDelta_KeyNotPresent_ReturnsZero
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.ApplyDelta_KeyNotPresent_ReturnsZero
+      resultStatus: 1
+      duration: 0.0011582
+      messages: 
+      output: '
+
+        IgnoreFailingMessages:true
+
+        2026-05-22 02:33:47.016
+        [WARN] BaseNumericComponentV2-[NumericV2] ApplyDelta: mainKey 999999 not
+        in dictionary
+
+
+        IgnoreFailingMessages:false
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1057
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.BattleAudioListener_Priority_EqualsBattleAudioEnum]'
+      name: BattleAudioListener_Priority_EqualsBattleAudioEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.BattleAudioListener_Priority_EqualsBattleAudioEnum
+      resultStatus: 1
+      duration: 0.0002895
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1058
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.BattleUIListener_Priority_EqualsBattleUIEnum]'
+      name: BattleUIListener_Priority_EqualsBattleUIEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.BattleUIListener_Priority_EqualsBattleUIEnum
+      resultStatus: 1
+      duration: 0.000122
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1045
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.DamageInfoV2_IsDot_FieldRoundTrip]'
+      name: DamageInfoV2_IsDot_FieldRoundTrip
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.DamageInfoV2_IsDot_FieldRoundTrip
+      resultStatus: 1
+      duration: 0.0007056
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1059
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.DropTableListener_Priority_EqualsDropEnum]'
+      name: DropTableListener_Priority_EqualsDropEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.DropTableListener_Priority_EqualsDropEnum
+      resultStatus: 1
+      duration: 0.0001245
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1062
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.EnumPriority_AscOrder_AndUnique]'
+      name: EnumPriority_AscOrder_AndUnique
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.EnumPriority_AscOrder_AndUnique
+      resultStatus: 1
+      duration: 0.0019279
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1061
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.PlayerDieListener_Priority_EqualsPlayerDieEnum]'
+      name: PlayerDieListener_Priority_EqualsPlayerDieEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.PlayerDieListener_Priority_EqualsPlayerDieEnum
+      resultStatus: 1
+      duration: 0.0001653
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1042
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_ClearAll_RemovesEverything]'
+      name: Registry_ClearAll_RemovesEverything
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_ClearAll_RemovesEverything
+      resultStatus: 1
+      duration: 0.0007399
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1035
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_BroadcastsInPriorityAscOrder]'
+      name: Registry_DamageListener_BroadcastsInPriorityAscOrder
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_BroadcastsInPriorityAscOrder
+      resultStatus: 1
+      duration: 0.0004316
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1036
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_DuplicateRegistrationIgnored]'
+      name: Registry_DamageListener_DuplicateRegistrationIgnored
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_DuplicateRegistrationIgnored
+      resultStatus: 1
+      duration: 0.0011657
+      messages: 
+      output: '2026-05-22 02:33:47.022 [WARN] CombatListenerRegistryV2-[CombatListenerRegistryV2]
+        RegisterDamageListener: duplicate registration ignored, type=DamageRecorderListener
+
+        2026-05-22
+        02:33:47.023 [WARN] CombatListenerRegistryV2-[CombatListenerRegistryV2] RegisterDamageListener:
+        duplicate registration ignored, type=DamageRecorderListener
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1037
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_UnregisterRemovesFromBroadcast]'
+      name: Registry_DamageListener_UnregisterRemovesFromBroadcast
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_DamageListener_UnregisterRemovesFromBroadcast
+      resultStatus: 1
+      duration: 0.0001618
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1040
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_DeathListener_BroadcastsInPriorityAscOrder]'
+      name: Registry_DeathListener_BroadcastsInPriorityAscOrder
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_DeathListener_BroadcastsInPriorityAscOrder
+      resultStatus: 1
+      duration: 0.0005452
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1038
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_ListenerException_IsolatedNotAffectingOthers]'
+      name: Registry_ListenerException_IsolatedNotAffectingOthers
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_ListenerException_IsolatedNotAffectingOthers
+      resultStatus: 1
+      duration: 0.0012932
+      messages: 
+      output: "\nIgnoreFailingMessages:true\n2026-05-22 02:33:47.025 [ERROR] CombatListenerRegistryV2-[CombatListenerRegistryV2]
+        OnPreDamage threw, listener=ThrowingDamageListener, ex=System.InvalidOperationException:
+        intentional\n  at Soul.Tests.EditMode.CombatEventChainTests+ThrowingDamageListener.OnPreDamage
+        (Soul.MultiPlayer.DamageInfoV2& info) [0x00000] in /Users/domi/Ebonor/worktree/wt-onlinetest/Assets/Tests/EditMode/V2/CombatEventChainTests.cs:36
+        \n  at Soul.Tests.EditMode.CombatEventChainTests+ThrowingDamageListener.Soul.MultiPlayer.IDamageListenerV2.OnPreDamage
+        (Soul.MultiPlayer.DamageInfoV2& info) <0x47b553b28 + 0x00043> in <85245ed2b02c400fb3092c35ac3ccffd>:0
+        \n  at Soul.MultiPlayer.CombatListenerRegistryV2.BroadcastPreDamage (Soul.MultiPlayer.DamageInfoV2&
+        info) [0x00007] in /Users/domi/Ebonor/worktree/wt-onlinetest/Assets/HotUpdate/MultiPlayer/V2/Battle/Listeners/CombatListenerRegistryV2.cs:96
+        \n\nIgnoreFailingMessages:false\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1041
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_NullListenerRegistration_LoggedAndIgnored]'
+      name: Registry_NullListenerRegistration_LoggedAndIgnored
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_NullListenerRegistration_LoggedAndIgnored
+      resultStatus: 1
+      duration: 0.001077
+      messages: 
+      output: '
+
+        IgnoreFailingMessages:true
+
+        2026-05-22 02:33:47.025
+        [ERROR] CombatListenerRegistryV2-[CombatListenerRegistryV2] RegisterDamageListener:
+        listener is null
+
+        2026-05-22 02:33:47.026 [ERROR] CombatListenerRegistryV2-[CombatListenerRegistryV2]
+        RegisterDeathListener: listener is null
+
+
+        IgnoreFailingMessages:false
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1039
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.Registry_PreDamageThenPostDamage_BothFire]'
+      name: Registry_PreDamageThenPostDamage_BothFire
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.Registry_PreDamageThenPostDamage_BothFire
+      resultStatus: 1
+      duration: 0.0004997
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1056
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.SkillCancelListener_Priority_EqualsSkillCancelEnum]'
+      name: SkillCancelListener_Priority_EqualsSkillCancelEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.SkillCancelListener_Priority_EqualsSkillCancelEnum
+      resultStatus: 1
+      duration: 0.0001202
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1049
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_IsDot_OnPreDamage_EarlyExits]'
+      name: StackFsmDamageListener_IsDot_OnPreDamage_EarlyExits
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_IsDot_OnPreDamage_EarlyExits
+      resultStatus: 1
+      duration: 0.0009179
+      messages: 
+      output: '2026-05-22 02:33:47.027 [DEBUG] StackFsmDamageListenerV2-[StackFsmDamageListenerV2]
+        OnPreDamage: IsDot=true, skip push GetHurt (actor=0)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1048
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_NullOwner_OnPreDamage_DoesNotThrow]'
+      name: StackFsmDamageListener_NullOwner_OnPreDamage_DoesNotThrow
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_NullOwner_OnPreDamage_DoesNotThrow
+      resultStatus: 1
+      duration: 0.0001558
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1046
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_Priority_EqualsStackFsmEnum]'
+      name: StackFsmDamageListener_Priority_EqualsStackFsmEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StackFsmDamageListener_Priority_EqualsStackFsmEnum
+      resultStatus: 1
+      duration: 0.0000842
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1050
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StackFsmDeathListener_NullOwner_OnPreDeath_DoesNotThrow]'
+      name: StackFsmDeathListener_NullOwner_OnPreDeath_DoesNotThrow
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StackFsmDeathListener_NullOwner_OnPreDeath_DoesNotThrow
+      resultStatus: 1
+      duration: 0.0002458
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1047
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StackFsmDeathListener_Priority_EqualsStackFsmEnum]'
+      name: StackFsmDeathListener_Priority_EqualsStackFsmEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StackFsmDeathListener_Priority_EqualsStackFsmEnum
+      resultStatus: 1
+      duration: 0.0000808
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1060
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/CombatEventChainTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests.StatisticsListener_Priority_EqualsStatisticsEnum]'
+      name: StatisticsListener_Priority_EqualsStatisticsEnum
+      fullName: Soul.Tests.EditMode.CombatEventChainTests.StatisticsListener_Priority_EqualsStatisticsEnum
+      resultStatus: 1
+      duration: 0.0001466
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.CombatEventChainTests][suite]'
+    - id: 1071
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests][suite]'
+      name: InstantDamageEffectV2Tests
+      fullName: Soul.Tests.EditMode.InstantDamageEffectV2Tests
+      resultStatus: 1
+      duration: 0.0045304
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1074
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDamageEffectV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests.Config_GetAmount_LevelClampToArrayBounds]'
+      name: Config_GetAmount_LevelClampToArrayBounds
+      fullName: Soul.Tests.EditMode.InstantDamageEffectV2Tests.Config_GetAmount_LevelClampToArrayBounds
+      resultStatus: 1
+      duration: 0.000726
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1071
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests][suite]'
+    - id: 1075
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDamageEffectV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests.Config_GetAmount_NullOrEmpty_ReturnsZero]'
+      name: Config_GetAmount_NullOrEmpty_ReturnsZero
+      fullName: Soul.Tests.EditMode.InstantDamageEffectV2Tests.Config_GetAmount_NullOrEmpty_ReturnsZero
+      resultStatus: 1
+      duration: 0.000087
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1071
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests][suite]'
+    - id: 1073
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDamageEffectV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests.OnCreated_AmountZero_LogsWarnAndMarksEffectFinished]'
+      name: OnCreated_AmountZero_LogsWarnAndMarksEffectFinished
+      fullName: Soul.Tests.EditMode.InstantDamageEffectV2Tests.OnCreated_AmountZero_LogsWarnAndMarksEffectFinished
+      resultStatus: 1
+      duration: 0.0029202
+      messages: 
+      output: '2026-05-22 02:33:47.037 [DEBUG] BuffEffectV2Base-[InstantDamageEffectV2]
+        OnCreated buffId=1001 instanceId=1 amount=0 damageType=Physical
+
+        2026-05-22
+        02:33:47.038 [WARN] BuffEffectV2Base-[InstantDamageEffectV2] OnCreated: amount=0
+        <= 0, no damage will fire (buffId=1001)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1071
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests][suite]'
+    - id: 1072
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDamageEffectV2Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests.OnCreated_NullEffectBlock_LogsErrorAndDoesNotCrash]'
+      name: OnCreated_NullEffectBlock_LogsErrorAndDoesNotCrash
+      fullName: Soul.Tests.EditMode.InstantDamageEffectV2Tests.OnCreated_NullEffectBlock_LogsErrorAndDoesNotCrash
+      resultStatus: 1
+      duration: 0.0007972
+      messages: 
+      output: '2026-05-22 02:33:47.039 [ERROR] BuffEffectV2Base-[InstantDamageEffectV2]
+        OnCreated: EffectBlock or InstantDamageEffect config is null, buffId=1001
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1071
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDamageEffectV2Tests][suite]'
+    - id: 1076
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests][suite]'
+      name: InstantDelayProviderTests
+      fullName: Soul.Tests.EditMode.InstantDelayProviderTests
+      resultStatus: 1
+      duration: 0.0008668
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1037
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDelayProviderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_LargeMs_ReturnsCompletedTask]'
+      name: DelayMs_LargeMs_ReturnsCompletedTask
+      fullName: Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_LargeMs_ReturnsCompletedTask
+      resultStatus: 1
+      duration: 0.0006803
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests][suite]'
+    - id: 1035
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDelayProviderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_ReturnsCompletedTask_Immediately]'
+      name: DelayMs_ReturnsCompletedTask_Immediately
+      fullName: Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_ReturnsCompletedTask_Immediately
+      resultStatus: 1
+      duration: 0.0001264
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests][suite]'
+    - id: 1036
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/InstantDelayProviderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_ZeroMs_ReturnsCompletedTask]'
+      name: DelayMs_ZeroMs_ReturnsCompletedTask
+      fullName: Soul.Tests.EditMode.InstantDelayProviderTests.DelayMs_ZeroMs_ReturnsCompletedTask
+      resultStatus: 1
+      duration: 0.0000601
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.InstantDelayProviderTests][suite]'
+    - id: 1080
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+      name: PathfinderActorIntegrationTests
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests
+      resultStatus: 1
+      duration: 0.0048567
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1043
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PathfinderActorIntegrationTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests.Determinism_SameSeed_SameRng_SamePath]'
+      name: Determinism_SameSeed_SameRng_SamePath
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests.Determinism_SameSeed_SameRng_SamePath
+      resultStatus: 1
+      duration: 0.0014003
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+    - id: 1041
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PathfinderActorIntegrationTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests.IDelayProvider_ContractFulfilled_ByInstantDelayProvider]'
+      name: IDelayProvider_ContractFulfilled_ByInstantDelayProvider
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests.IDelayProvider_ContractFulfilled_ByInstantDelayProvider
+      resultStatus: 1
+      duration: 0.0014202
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+    - id: 1039
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PathfinderActorIntegrationTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests.IPathfinder_ContractFulfilled_BySimplePathfinder]'
+      name: IPathfinder_ContractFulfilled_BySimplePathfinder
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests.IPathfinder_ContractFulfilled_BySimplePathfinder
+      resultStatus: 1
+      duration: 0.0011047
+      messages: 
+      output: 
+      stacktrace: 'at Soul.Tests.EditMode.PathfinderActorIntegrationTests.IPathfinder_ContractFulfilled_BySimplePathfinder
+        () [0x000ca] in /Users/domi/Ebonor/worktree/wt-onlinetest/Assets/Tests/EditMode/V2/PathfinderActorIntegrationTests.cs:38
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+    - id: 1040
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PathfinderActorIntegrationTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests.IRandom_ContractFulfilled_BySeededRandom]'
+      name: IRandom_ContractFulfilled_BySeededRandom
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests.IRandom_ContractFulfilled_BySeededRandom
+      resultStatus: 1
+      duration: 0.0007963
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+    - id: 1042
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PathfinderActorIntegrationTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests.MultiComponent_SeededRandomDecidesDestination_PathfinderConverges]'
+      name: MultiComponent_SeededRandomDecidesDestination_PathfinderConverges
+      fullName: Soul.Tests.EditMode.PathfinderActorIntegrationTests.MultiComponent_SeededRandomDecidesDestination_PathfinderConverges
+      resultStatus: 1
+      duration: 0.0001352
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PathfinderActorIntegrationTests][suite]'
+    - id: 1023
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+      name: PresentationInvariantTests
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests
+      resultStatus: 1
+      duration: 0.0086319
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1033
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.OnCleanup_OneShot_NoDestroy]'
+      name: OnCleanup_OneShot_NoDestroy
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.OnCleanup_OneShot_NoDestroy
+      resultStatus: 1
+      duration: 0.0019073
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1032
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.OnCleanup_Sustain_DestroysResource]'
+      name: OnCleanup_Sustain_DestroysResource
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.OnCleanup_Sustain_DestroysResource
+      resultStatus: 1
+      duration: 0.0011971
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1031
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.OnTriggered_SustainDuplicateFire_Blocked]'
+      name: OnTriggered_SustainDuplicateFire_Blocked
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.OnTriggered_SustainDuplicateFire_Blocked
+      resultStatus: 1
+      duration: 0.0009724
+      messages: 
+      output: "2026-05-22 02:33:47.060 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        OnTriggered: invariant violation \u2014 Sustain resource already alive (Subscriber/BuffLogic
+        bug? \xA710.6.3), buffInstanceId=100003 buffId=999 category=VFX\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1030
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.OnTriggered_SustainOnCreated_RegistersResource]'
+      name: OnTriggered_SustainOnCreated_RegistersResource
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.OnTriggered_SustainOnCreated_RegistersResource
+      resultStatus: 1
+      duration: 0.0001293
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1029
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_NullBlock_Fail]'
+      name: PreValidate_NullBlock_Fail
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_NullBlock_Fail
+      resultStatus: 1
+      duration: 0.000728
+      messages: 
+      output: '2026-05-22 02:33:47.061 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: block is null, buffId=999
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1028
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_NullInstance_Fail]'
+      name: PreValidate_NullInstance_Fail
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_NullInstance_Fail
+      resultStatus: 1
+      duration: 0.0006984
+      messages: 
+      output: '2026-05-22 02:33:47.062 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: instance is null (upstream caller bug)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1022
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_OneShotAllTriggers_AllPass]'
+      name: PreValidate_OneShotAllTriggers_AllPass
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_OneShotAllTriggers_AllPass
+      resultStatus: 1
+      duration: 0.0001345
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1027
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopFalseOneShot_Pass]'
+      name: PreValidate_SfxLoopFalseOneShot_Pass
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopFalseOneShot_Pass
+      resultStatus: 1
+      duration: 0.0001681
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1025
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopTrueOneShot_Fail]'
+      name: PreValidate_SfxLoopTrueOneShot_Fail
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopTrueOneShot_Fail
+      resultStatus: 1
+      duration: 0.0006699
+      messages: 
+      output: "2026-05-22 02:33:47.063 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: invariant violation \u2014 SFX.Loop=true requires Periodicity=Sustain,
+        got Periodicity=OneShot, buffId=999\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1026
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopTrueSustain_Pass]'
+      name: PreValidate_SfxLoopTrueSustain_Pass
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SfxLoopTrueSustain_Pass
+      resultStatus: 1
+      duration: 0.0000687
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1024
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SustainNonOnCreated_AllFail]'
+      name: PreValidate_SustainNonOnCreated_AllFail
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SustainNonOnCreated_AllFail
+      resultStatus: 1
+      duration: 0.0018938
+      messages: 
+      output: "2026-05-22 02:33:47.064 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: invariant violation \u2014 Periodicity=Sustain only allowed
+        with TriggerEvent=OnCreated, got TriggerEvent=OnRefreshed, buffId=999, category=VFX\n2026-05-22
+        02:33:47.065 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: invariant violation \u2014 Periodicity=Sustain only allowed
+        with TriggerEvent=OnCreated, got TriggerEvent=OnTicked, buffId=999, category=VFX\n2026-05-22
+        02:33:47.065 [ERROR] PresentationExecutorV2Base-[PresentationExecutorV2Base]
+        PreValidate: invariant violation \u2014 Periodicity=Sustain only allowed
+        with TriggerEvent=OnCreated, got TriggerEvent=OnDestroyed, buffId=999, category=VFX\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1023
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/PresentationInvariantTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SustainOnCreated_Pass]'
+      name: PreValidate_SustainOnCreated_Pass
+      fullName: Soul.Tests.EditMode.PresentationInvariantTests.PreValidate_SustainOnCreated_Pass
+      resultStatus: 1
+      duration: 0.0000644
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.PresentationInvariantTests][suite]'
+    - id: 1086
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+      name: SeededRandomTests
+      fullName: Soul.Tests.EditMode.SeededRandomTests
+      resultStatus: 1
+      duration: 0.0682576
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1046
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.DifferentSeed_DifferentSequence]'
+      name: DifferentSeed_DifferentSequence
+      fullName: Soul.Tests.EditMode.SeededRandomTests.DifferentSeed_DifferentSequence
+      resultStatus: 1
+      duration: 0.0001809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1049
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.InsideUnitCircle_AllPointsWithinCircle]'
+      name: InsideUnitCircle_AllPointsWithinCircle
+      fullName: Soul.Tests.EditMode.SeededRandomTests.InsideUnitCircle_AllPointsWithinCircle
+      resultStatus: 1
+      duration: 0.0596824
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1050
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.InsideUnitCircle_DistributionRoughlyUniform]'
+      name: InsideUnitCircle_DistributionRoughlyUniform
+      fullName: Soul.Tests.EditMode.SeededRandomTests.InsideUnitCircle_DistributionRoughlyUniform
+      resultStatus: 1
+      duration: 0.000936
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1047
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.RangeFloat_WithinBounds]'
+      name: RangeFloat_WithinBounds
+      fullName: Soul.Tests.EditMode.SeededRandomTests.RangeFloat_WithinBounds
+      resultStatus: 1
+      duration: 0.0039618
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1048
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.RangeInt_WithinBounds]'
+      name: RangeInt_WithinBounds
+      fullName: Soul.Tests.EditMode.SeededRandomTests.RangeInt_WithinBounds
+      resultStatus: 1
+      duration: 0.0032351
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1045
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SeededRandomTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests.SameSeed_SameSequence]'
+      name: SameSeed_SameSequence
+      fullName: Soul.Tests.EditMode.SeededRandomTests.SameSeed_SameSequence
+      resultStatus: 1
+      duration: 0.0002614
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SeededRandomTests][suite]'
+    - id: 1093
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+      name: SimplePathfinderTests
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests
+      resultStatus: 1
+      duration: 0.0010421
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1107
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.EditMode][suite]'
+    - id: 1052
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Ctor_InitialPosition_StoredCorrectly]'
+      name: Ctor_InitialPosition_StoredCorrectly
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Ctor_InitialPosition_StoredCorrectly
+      resultStatus: 1
+      duration: 0.0001943
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1060
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.FaceDirection_UpdatesForward]'
+      name: FaceDirection_UpdatesForward
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.FaceDirection_UpdatesForward
+      resultStatus: 1
+      duration: 0.0001035
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1061
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.FaceDirection_ZeroVector_IgnoresUpdate]'
+      name: FaceDirection_ZeroVector_IgnoresUpdate
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.FaceDirection_ZeroVector_IgnoresUpdate
+      resultStatus: 1
+      duration: 0.0000906
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1053
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Move_AdvancesPosition_ByVelocityTimesDt]'
+      name: Move_AdvancesPosition_ByVelocityTimesDt
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Move_AdvancesPosition_ByVelocityTimesDt
+      resultStatus: 1
+      duration: 0.0000959
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1054
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Move_ZeroVelocity_NotMoving]'
+      name: Move_ZeroVelocity_NotMoving
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Move_ZeroVelocity_NotMoving
+      resultStatus: 1
+      duration: 0.0000669
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1058
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Pause_BlocksMoveAndTick]'
+      name: Pause_BlocksMoveAndTick
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Pause_BlocksMoveAndTick
+      resultStatus: 1
+      duration: 0.000138
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1059
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Resume_RestoresMoveAndTick]'
+      name: Resume_RestoresMoveAndTick
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Resume_RestoresMoveAndTick
+      resultStatus: 1
+      duration: 0.0000962
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1055
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.SetDestination_Tick_AdvancesTowardTarget]'
+      name: SetDestination_Tick_AdvancesTowardTarget
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.SetDestination_Tick_AdvancesTowardTarget
+      resultStatus: 1
+      duration: 0.0000981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1056
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.SetDestination_Tick_ArrivesAndStops]'
+      name: SetDestination_Tick_ArrivesAndStops
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.SetDestination_Tick_ArrivesAndStops
+      resultStatus: 1
+      duration: 0.0000885
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1057
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/SimplePathfinderTests/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests.Stop_ClearsDestinationAndMovingFlag]'
+      name: Stop_ClearsDestinationAndMovingFlag
+      fullName: Soul.Tests.EditMode.SimplePathfinderTests.Stop_ClearsDestinationAndMovingFlag
+      resultStatus: 1
+      duration: 0.0000701
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/EditMode/[Soul_Tests_EditMode][Soul.Tests.EditMode.SimplePathfinderTests][suite]'
+    - id: 1004
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+      name: GameConfigResolverTests
+      fullName: Soul.Tests.GameConfigResolverTests
+      resultStatus: 1
+      duration: 0.00077389996
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/[Tests][suite]'
+    - id: 1005
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V1_HubTrue_Default_ReturnsTrue_HubConfig]'
+      name: V1_HubTrue_Default_ReturnsTrue_HubConfig
+      fullName: Soul.Tests.GameConfigResolverTests.V1_HubTrue_Default_ReturnsTrue_HubConfig
+      resultStatus: 1
+      duration: 0.000385
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1006
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V2_HubFalse_Default_ReturnsFalse_HubConfig]'
+      name: V2_HubFalse_Default_ReturnsFalse_HubConfig
+      fullName: Soul.Tests.GameConfigResolverTests.V2_HubFalse_Default_ReturnsFalse_HubConfig
+      resultStatus: 1
+      duration: 0.0000761
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1007
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V3_HubTrue_BatchMode_ReturnsFalse_BatchMode]'
+      name: V3_HubTrue_BatchMode_ReturnsFalse_BatchMode
+      fullName: Soul.Tests.GameConfigResolverTests.V3_HubTrue_BatchMode_ReturnsFalse_BatchMode
+      resultStatus: 1
+      duration: 0.00007
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1008
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V4_HubTrue_DisableCmdArg_ReturnsFalse_CmdArg]'
+      name: V4_HubTrue_DisableCmdArg_ReturnsFalse_CmdArg
+      fullName: Soul.Tests.GameConfigResolverTests.V4_HubTrue_DisableCmdArg_ReturnsFalse_CmdArg
+      resultStatus: 1
+      duration: 0.0000856
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1009
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V5_BatchMode_EnableCmdArg_ReturnsTrue_CmdArg_HighestPriority]'
+      name: V5_BatchMode_EnableCmdArg_ReturnsTrue_CmdArg_HighestPriority
+      fullName: Soul.Tests.GameConfigResolverTests.V5_BatchMode_EnableCmdArg_ReturnsTrue_CmdArg_HighestPriority
+      resultStatus: 1
+      duration: 0.0000914
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1010
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/GameConfigResolverTests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests.V6_NullCmdArgs_FallsThrough_HubConfig]'
+      name: V6_NullCmdArgs_FallsThrough_HubConfig
+      fullName: Soul.Tests.GameConfigResolverTests.V6_NullCmdArgs_FallsThrough_HubConfig
+      resultStatus: 1
+      duration: 0.0000658
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.GameConfigResolverTests][suite]'
+    - id: 1011
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcBehaviourTreeTests][suite]'
+      name: NpcBehaviourTreeTests
+      fullName: Soul.Tests.NpcBehaviourTreeTests
+      resultStatus: 1
+      duration: 0.030997599
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/[Tests][suite]'
+    - id: 1012
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcBehaviourTreeTests/[Soul_Tests_EditMode][Soul.Tests.NpcBehaviourTreeTests.EvilmageBehaviourTree_BsonDeserialize_ValidStructure]'
+      name: EvilmageBehaviourTree_BsonDeserialize_ValidStructure
+      fullName: Soul.Tests.NpcBehaviourTreeTests.EvilmageBehaviourTree_BsonDeserialize_ValidStructure
+      resultStatus: 1
+      duration: 0.0304896
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcBehaviourTreeTests][suite]'
+    - id: 1013
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcBehaviourTreeTests/[Soul_Tests_EditMode][Soul.Tests.NpcBehaviourTreeTests.NP_NpcChaseTargetActionV2_Clone_PreservesType]'
+      name: NP_NpcChaseTargetActionV2_Clone_PreservesType
+      fullName: Soul.Tests.NpcBehaviourTreeTests.NP_NpcChaseTargetActionV2_Clone_PreservesType
+      resultStatus: 1
+      duration: 0.000508
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcBehaviourTreeTests][suite]'
+    - id: 1014
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+      name: NpcChangeStackStateTests
+      fullName: Soul.Tests.NpcChangeStackStateTests
+      resultStatus: 1
+      duration: 0.0121278
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/[Tests][suite]'
+    - id: 1015
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.Action_Clone_PreservesType_AndFields]'
+      name: Action_Clone_PreservesType_AndFields
+      fullName: Soul.Tests.NpcChangeStackStateTests.Action_Clone_PreservesType_AndFields
+      resultStatus: 1
+      duration: 0.0003082
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1017
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_BuffOnlyState_ReturnsFalse]'
+      name: ChangeState_NonGeneric_BuffOnlyState_ReturnsFalse
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_BuffOnlyState_ReturnsFalse
+      resultStatus: 1
+      duration: 0.0026858
+      messages: 
+      output: "2026-05-22 02:33:47.193 [WARN] StackFsmComponentV2-[StackFsmComponentV2]
+        ChangeState: stateType=Stunned \u662F buff \u89E6\u53D1\u7684\u4F4D\u79FB/\u63A7\u5236\u7C7B\uFF0C\u884C\u4E3A\u6811
+        Action \u4E0D\u5E94\u76F4\u63A5 push\uFF08\u8BF7\u8D70 ChangeStateWithDuration\uFF09\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1018
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushBirth_RoutesToBirthState]'
+      name: ChangeState_NonGeneric_PushBirth_RoutesToBirthState
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushBirth_RoutesToBirthState
+      resultStatus: 1
+      duration: 0.0030652
+      messages: 
+      output: '[NpcBirthStackStateV2] OnEnter: mActor is not NpcActorV2
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1018
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushDie_RoutesToDieState]'
+      name: ChangeState_NonGeneric_PushDie_RoutesToDieState
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushDie_RoutesToDieState
+      resultStatus: 1
+      duration: 0.0009758
+      messages: 
+      output: '[NpcDieStackStateV2] OnEnter: mActor is not NpcActorV2
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1017
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushGetHurt_RoutesToGetHurtState]'
+      name: ChangeState_NonGeneric_PushGetHurt_RoutesToGetHurtState
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushGetHurt_RoutesToGetHurtState
+      resultStatus: 1
+      duration: 0.0009028
+      messages: 
+      output: '[NpcGetHurtStackStateV2] OnEnter: mActor is not NpcActorV2
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1019
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushIdle_RoutesToIdleState]'
+      name: ChangeState_NonGeneric_PushIdle_RoutesToIdleState
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_PushIdle_RoutesToIdleState
+      resultStatus: 1
+      duration: 0.0008163
+      messages: 
+      output: '[NpcIdleStackStateV2] OnEnter: mActor is not NpcActorV2
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1016
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_UnsupportedYet_ReturnsFalse]'
+      name: ChangeState_NonGeneric_UnsupportedYet_ReturnsFalse
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_NonGeneric_UnsupportedYet_ReturnsFalse
+      resultStatus: 1
+      duration: 0.0006408
+      messages: 
+      output: "2026-05-22 02:33:47.200 [WARN] StackFsmComponentV2-[StackFsmComponentV2]
+        ChangeState: stateType=NormalAttack \u5C1A\u672A\u5B9E\u88C5\uFF08\u5F85
+        \xA71.8 \u666E\u653B+CD\uFF09\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1020
+      uniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/NpcChangeStackStateTests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests.ChangeState_PushBirthThenIdle_StackOrderCorrect]'
+      name: ChangeState_PushBirthThenIdle_StackOrderCorrect
+      fullName: Soul.Tests.NpcChangeStackStateTests.ChangeState_PushBirthThenIdle_StackOrderCorrect
+      resultStatus: 1
+      duration: 0.0027329
+      messages: 
+      output: '[NpcBirthStackStateV2] OnEnter: mActor is not NpcActorV2
+
+        [NpcIdleStackStateV2]
+        OnEnter: mActor is not NpcActorV2
+
+        [NpcBirthStackStateV2] OnEnter:
+        mActor is not NpcActorV2
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'Soul_Tests_EditMode.dll/Soul/Tests/[Soul_Tests_EditMode][Soul.Tests.NpcChangeStackStateTests][suite]'
+    - id: 1114
+      uniqueId: '[Unity.RenderPipelines.Universal.Config.Editor.Tests.dll][suite]'
+      name: Unity.RenderPipelines.Universal.Config.Editor.Tests.dll
+      fullName: /Users/domi/Ebonor/worktree/wt-onlinetest/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pantheon Survivors][suite]'
+    - id: 1115
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/[UnityEngine][suite]'
+      name: UnityEngine
+      fullName: UnityEngine
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1114
+      parentUniqueId: '[Unity.RenderPipelines.Universal.Config.Editor.Tests.dll][suite]'
+    - id: 1116
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/[Rendering][suite]'
+      name: Rendering
+      fullName: UnityEngine.Rendering
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1115
+      parentUniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/[UnityEngine][suite]'
+    - id: 1117
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/[Universal][suite]'
+      name: Universal
+      fullName: UnityEngine.Rendering.Universal
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1116
+      parentUniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/[Rendering][suite]'
+    - id: 1118
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/Universal/[Unity.RenderPipelines.Universal.Config.Editor.Tests][UnityEngine.Rendering.Universal.Test][suite]'
+      name: Test
+      fullName: UnityEngine.Rendering.Universal.Test
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1117
+      parentUniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/[Universal][suite]'
+    - id: 1112
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/Universal/Test/[Unity.RenderPipelines.Universal.Config.Editor.Tests][UnityEngine.Rendering.Universal.Test.ConfigurationTest][suite]'
+      name: ConfigurationTest
+      fullName: UnityEngine.Rendering.Universal.Test.ConfigurationTest
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/Universal/[Unity.RenderPipelines.Universal.Config.Editor.Tests][UnityEngine.Rendering.Universal.Test][suite]'
+    - id: 1071
+      uniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/Universal/Test/ConfigurationTest/[Unity.RenderPipelines.Universal.Config.Editor.Tests][UnityEngine.Rendering.Universal.Test.ConfigurationTest.ValidateConfiguration]'
+      name: ValidateConfiguration
+      fullName: UnityEngine.Rendering.Universal.Test.ConfigurationTest.ValidateConfiguration
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1070
+      parentUniqueId: 'Unity.RenderPipelines.Universal.Config.Editor.Tests.dll/UnityEngine/Rendering/Universal/Test/[Unity.RenderPipelines.Universal.Config.Editor.Tests][UnityEngine.Rendering.Universal.Test.ConfigurationTest][suite]'
+    m_ResultText: BuffLogicV2Tests (7 tests) (0.024s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 8af110c5
+      m_LastClickedID: -988745334
+      m_ExpandedIDs: 11b26598d52e7fae1094dab60f7136ef0f8da902b0bb035262f27b75ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 0}
+    runProgress:
+      RunGuid: 84b9b3a7-7d4b-4274-bcbb-2d96a90498ad
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames: []
+          groupNames:
+          - .*
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999995
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories: []
+    m_SelectedOption: 0
+  - m_Window: {fileID: 0}
+    runProgress:
+      RunGuid: 84b9b3a7-7d4b-4274-bcbb-2d96a90498ad
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames: []
+          groupNames:
+          - .*
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999995
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories: []
+    m_SelectedOption: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.LightingWindow
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Lighting\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2135
+    y: 89
+    width: 726
+    height: 482
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 24
+    width: 548
+    height: 477
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: []
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Plugins/Animancer
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: /Users/domi/Ebonor/worktree/wt-onlinetest
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastLocalAssetsSearchArea: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 155.99426}
+    m_SelectedIDs:
+    - m_Data: 90108
+    m_LastClickedID:
+      m_Data: 90108
+    m_ExpandedIDs: []
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: []
+    m_LastClickedID:
+      m_Data: 0
+    m_ExpandedIDs: []
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs:
+    - m_Data: 89044
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs:
+    - m_Data: 103332
+    - m_Data: 87188
+    - m_Data: 92956
+    - m_Data: 126492
+    - m_Data: 90796
+    - m_Data: 131806
+    - m_Data: 131556
+    - m_Data: 92440
+    - m_Data: 129922
+    - m_Data: 89220
+    - m_Data: 161244
+    - m_Data: 92564
+    - m_Data: 95392
+    - m_Data: 95472
+    - m_Data: 95422
+    - m_Data: 95402
+    - m_Data: 95412
+    - m_Data: 95432
+    - m_Data: 95442
+    - m_Data: 95452
+    - m_Data: 95462
+    - m_Data: 103802
+    - m_Data: 103892
+    - m_Data: 90572
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 279
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1996
+    y: 557
+    width: 548
+    height: 477
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 825
+    y: 24
+    width: 1019
+    height: 945
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 480
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 15004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.BuildProfileModule.dll::UnityEditor.Build.Profile.BuildProfileWindow
+  m_MinSize: {x: 725, y: 400}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Build Profiles
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Build Profiles\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 3104
+    y: 89
+    width: 643
+    height: 945
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.FrameDebuggerWindow
+  m_MinSize: {x: 1000, y: 500}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Frame Debugger
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Frame Debugger\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2728
+    y: 89
+    width: 1019
+    height: 945
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_TreeWidth: 337.92
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ProjectSettingsWindow
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project Settings\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2728
+    y: 89
+    width: 1019
+    height: 945
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 3287.433}
+  m_Scope: 1
+  m_SplitterPos: 140
+  m_SearchText: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4dcf9b58
+    m_LastClickedID: 1486606157
+    m_ExpandedIDs: a01a5fa667ea4eb1b61a15b9000000007f0eae07e594f01ac53aba5a
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
